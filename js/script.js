@@ -14,7 +14,7 @@
             }
             );
         var $star = $('<span class="octicon octicon-star"></span>');
-        $anchor.prepend($star).css('margin-top', '2px');
+        $anchor.prepend($star);
         $li.append($anchor);
         $('.user-nav > li:first-child').after($li);
     };
